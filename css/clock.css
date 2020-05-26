@@ -1,0 +1,9 @@
+.js-clock {
+  color: white;
+  font-size: 70px;
+}
+
+.js-clock h1 {
+  margin: 0;
+  text-shadow: 3px 3px 8px rgba(202, 202, 202, 0.89);
+}
