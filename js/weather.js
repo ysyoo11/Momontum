@@ -15,7 +15,7 @@ function getWeather(lat, lng) {
       const temperature = Math.round(json.main.temp);
       const place = json.name;
       const iconURL = `http://openweathermap.org/img/wn/${json.weather[0].icon}@2x.png`;
-      const icon = new Image(40, 40);
+      const icon = new Image(50, 50);
       icon.src = iconURL;
       weather.innerText = `${temperature}℃, ${place}`;
       weatherDetail.appendChild(icon);
