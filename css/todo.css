@@ -32,8 +32,8 @@
   right: 15px;
   opacity: 0.6;
   position: absolute;
+  margin-top: 4px;
   z-index: 2;
-  padding-top: 5px;
   color: white;
   animation: showToDoList 1s ease-out forwards;
 }
